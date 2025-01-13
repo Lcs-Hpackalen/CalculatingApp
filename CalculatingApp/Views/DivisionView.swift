@@ -1,5 +1,5 @@
 //
-//  MultiplicationView.swift
+//  DivisionView.swift
 //  CalculatingApp
 //
 //  Created by Hannu Packalen on 2025-01-13.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct MultiplicationView: View {
+struct DivisionView: View {
     //Mark: stored properties
-    @State var firstNumber: Int = 1
+    @State var firstNumber: Double = 1.0
     
-    @State var secondNumber: Int = 2
+    @State var secondNumber: Double = 2.0
     //Mark: computed properties
-    var product: Int {
-        return firstNumber * secondNumber
+    var quotient: Double {
+        return firstNumber / secondNumber
     }
     var body: some View {
         VStack (alignment: .trailing) {
@@ -24,8 +24,8 @@ struct MultiplicationView: View {
                 Text ("First Number Value")
             })
             HStack{
-                Text("X")
-                .font(.system(size: 70))
+                Text ("/")
+                    .font(.system(size: 96))
                 Spacer()
                 Text("\(secondNumber)")
                     .font(.system(size: 96))
@@ -35,7 +35,7 @@ struct MultiplicationView: View {
             })
             Divider()
                 .bold()
-            Text("\(product)")
+            Text("\(quotient)")
                 .font(.system(size: 96))
         }
         .padding()
@@ -43,5 +43,5 @@ struct MultiplicationView: View {
 }
 
 #Preview {
-    MultiplicationView()
+    DivisionView()
 }

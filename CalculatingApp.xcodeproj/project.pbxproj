@@ -13,6 +13,8 @@
 		F440FEC92D3558B900E57B1F /* CalculatingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440FEC42D3558B900E57B1F /* CalculatingAppApp.swift */; };
 		F440FECC2D3558E100E57B1F /* SubtractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440FECB2D3558E100E57B1F /* SubtractionView.swift */; };
 		F440FECE2D3559D700E57B1F /* MultiplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440FECD2D3559D700E57B1F /* MultiplicationView.swift */; };
+		F440FED02D355B9300E57B1F /* DivisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440FECF2D355B9300E57B1F /* DivisionView.swift */; };
+		F440FED22D355D7600E57B1F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440FED12D355D7600E57B1F /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		F440FEC42D3558B900E57B1F /* CalculatingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatingAppApp.swift; sourceTree = "<group>"; };
 		F440FECB2D3558E100E57B1F /* SubtractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionView.swift; sourceTree = "<group>"; };
 		F440FECD2D3559D700E57B1F /* MultiplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationView.swift; sourceTree = "<group>"; };
+		F440FECF2D355B9300E57B1F /* DivisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionView.swift; sourceTree = "<group>"; };
+		F440FED12D355D7600E57B1F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				F440FEC22D3558B900E57B1F /* AdditionView.swift */,
 				F440FECB2D3558E100E57B1F /* SubtractionView.swift */,
 				F440FECD2D3559D700E57B1F /* MultiplicationView.swift */,
+				F440FECF2D355B9300E57B1F /* DivisionView.swift */,
+				F440FED12D355D7600E57B1F /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,9 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F440FECE2D3559D700E57B1F /* MultiplicationView.swift in Sources */,
+				F440FED22D355D7600E57B1F /* MainView.swift in Sources */,
 				F440FEC82D3558B900E57B1F /* AdditionView.swift in Sources */,
 				F440FEC92D3558B900E57B1F /* CalculatingAppApp.swift in Sources */,
 				F440FECC2D3558E100E57B1F /* SubtractionView.swift in Sources */,
+				F440FED02D355B9300E57B1F /* DivisionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
