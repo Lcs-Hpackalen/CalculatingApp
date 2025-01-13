@@ -11,7 +11,7 @@ import SwiftUI
 struct CalculatingAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AdditionView()
         }
     }
 }

@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F440FEC62D3558B900E57B1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F440FEC02D3558B900E57B1F /* Preview Assets.xcassets */; };
+		F440FEC72D3558B900E57B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F440FEC32D3558B900E57B1F /* Assets.xcassets */; };
+		F440FEC82D3558B900E57B1F /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440FEC22D3558B900E57B1F /* AdditionView.swift */; };
+		F440FEC92D3558B900E57B1F /* CalculatingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440FEC42D3558B900E57B1F /* CalculatingAppApp.swift */; };
+		F440FECC2D3558E100E57B1F /* SubtractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440FECB2D3558E100E57B1F /* SubtractionView.swift */; };
+		F440FECE2D3559D700E57B1F /* MultiplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440FECD2D3559D700E57B1F /* MultiplicationView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F440FEAF2D3555B200E57B1F /* CalculatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F440FEC02D3558B900E57B1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F440FEC22D3558B900E57B1F /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
+		F440FEC32D3558B900E57B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F440FEC42D3558B900E57B1F /* CalculatingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatingAppApp.swift; sourceTree = "<group>"; };
+		F440FECB2D3558E100E57B1F /* SubtractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionView.swift; sourceTree = "<group>"; };
+		F440FECD2D3559D700E57B1F /* MultiplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F440FEB12D3555B200E57B1F /* CalculatingApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CalculatingApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F440FEAC2D3555B200E57B1F /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		F440FEA62D3555B200E57B1F = {
 			isa = PBXGroup;
 			children = (
-				F440FEB12D3555B200E57B1F /* CalculatingApp */,
+				F440FEC52D3558B900E57B1F /* CalculatingApp */,
 				F440FEB02D3555B200E57B1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,35 @@
 				F440FEAF2D3555B200E57B1F /* CalculatingApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F440FEC12D3558B900E57B1F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F440FEC02D3558B900E57B1F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F440FEC52D3558B900E57B1F /* CalculatingApp */ = {
+			isa = PBXGroup;
+			children = (
+				F440FECA2D3558BD00E57B1F /* Views */,
+				F440FEC12D3558B900E57B1F /* Preview Content */,
+				F440FEC32D3558B900E57B1F /* Assets.xcassets */,
+				F440FEC42D3558B900E57B1F /* CalculatingAppApp.swift */,
+			);
+			path = CalculatingApp;
+			sourceTree = "<group>";
+		};
+		F440FECA2D3558BD00E57B1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F440FEC22D3558B900E57B1F /* AdditionView.swift */,
+				F440FECB2D3558E100E57B1F /* SubtractionView.swift */,
+				F440FECD2D3559D700E57B1F /* MultiplicationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +95,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F440FEB12D3555B200E57B1F /* CalculatingApp */,
 			);
 			name = CalculatingApp;
 			packageProductDependencies = (
@@ -109,6 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F440FEC62D3558B900E57B1F /* Preview Assets.xcassets in Resources */,
+				F440FEC72D3558B900E57B1F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F440FECE2D3559D700E57B1F /* MultiplicationView.swift in Sources */,
+				F440FEC82D3558B900E57B1F /* AdditionView.swift in Sources */,
+				F440FEC92D3558B900E57B1F /* CalculatingAppApp.swift in Sources */,
+				F440FECC2D3558E100E57B1F /* SubtractionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
